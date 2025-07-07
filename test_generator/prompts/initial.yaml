@@ -1,0 +1,9 @@
+prompt: |
+  Generate GoogleTest-based unit tests for the following C++ file.
+  Test all public functions. No duplicate tests. Use good assertions.
+
+strict:
+  include_libraries:
+    - gtest/gtest.h
+  output_format: test_<filename>.cc
+  no_duplicates: true

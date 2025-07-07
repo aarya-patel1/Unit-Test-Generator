@@ -1,0 +1,7 @@
+prompt: |
+  Refine these tests by removing duplicates, improving formatting, and increasing test coverage.
+
+strict:
+  ensure_unique: true
+  handle_edge_cases: true
+  keep_output_format: true

@@ -1,0 +1,7 @@
+prompt: |
+  Fix compilation errors in this test file using the logs below. Do not change the test intent.
+
+strict:
+  fix_headers: true
+  remove_invalid_calls: true
+  keep_test_style: gtest
